@@ -1,7 +1,6 @@
 # Guide-how-to-get-logs-appsmith
 This document explains how to get the appsmith sealf-host logs. These logs are frequently requested by members of appsmith support.
 
-Note:
 
 `Warning: If a member other than your team or the appsmith team requests these logs, it is recommended that you do not share them.`
 ### Steps to follow

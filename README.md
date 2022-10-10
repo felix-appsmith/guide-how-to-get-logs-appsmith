@@ -3,7 +3,7 @@ This document explains how to get the appsmith sealf-host logs. These logs are f
 
 Note:
 
-`Advertencia: si un miembro que no sea su equipo o el equipo de appsmith solicita estos registros, se recomienda no compartirlos.`
+`Warning: If a member other than your team or the appsmith team requests these logs, it is recommended that you do not share them.`
 ### Steps to follow
 
 ![img](https://github.com/felix-appsmith/guide-how-to-get-logs-appsmith/blob/main/step1.png)

@@ -2,7 +2,10 @@
 
 This document will guide you on how to get the logs Appsmith on self-hosted deployments (such as Docker). These logs are frequently requested by members of the Appsmith Support team to properly troubleshoot bugs.
 
-`Warning: If a member other than your team or the appsmith team requests these logs, it is recommended that you do not share them.`
+**A few words on logs and privacy**: 
+
+- Appsmith's logs usually don't contain information that should be considered "risky" to share. But if you want/are required to remove any PII, please refer to the section bellow called "Procedure: Removing PII from logs".
+- It is best to share your logs directly to the Appsmith Support Team via the official support channels.
 
 ## Procedure: How to get the Backend logs
 

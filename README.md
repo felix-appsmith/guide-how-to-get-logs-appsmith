@@ -41,14 +41,34 @@ There you will find one or many `.log` files. If you want to remove any PII from
 
 ## Procedure: Removing PII from log files
 
-1. Copy the below Python file to a folder [maskemail.](guide-how-to-get-logs-appsmith/maskemail.py)
-2. Paste the logs into the folder where you have the python script.
-3. Run the script with the following command.
+1. Copy the below Python file to a folder [maskemail.](guide-how-to-get-logs-appsmith/maskdata.py)
+2. Install the dependencies.
 
-`python3 -u maskemail.py`
+```console
+pip install scrubadub
+```
 
-4. Follow the steps in the script.
+3. Execute the script with the command.
+```console
+python3 -u maskemail.py
+```
+4. The script requested the name of the file, type the name with the file extension and the program will replace the sensitive data.
 
-`Note:in the script when writing the name of the file you have to put the extension.`
+5. This script was built from the following [library.](https://github.com/LeapBeyond/scrubadub)
 
-5. If everything went well, your email was replaced by anonymous@appsmith.com and you can share these logs with whomever you want
+`Note: The script and log file must be in the same folder.`
+
+``scrubadub`` currently supports removing:
+
+* Names
+* Email addresses
+* Addresses/Postal codes (US, GB, CA)
+* Credit card numbers
+* Dates of birth
+* URLs
+* Phone numbers
+* Username and password combinations
+* Skype/twitter usernames
+* Social security numbers (US and GB national insurance numbers)
+* Tax numbers (GB)
+* Driving licence numbers (GB)

@@ -41,7 +41,7 @@ There you will find one or many `.log` files. If you want to remove any PII from
 
 ## Procedure: Removing PII from log files
 
-1. Copy the below Python file to a folder [maskdata.](guide-how-to-get-logs-appsmith/maskdata.py)
+1. Copy the below Python file to a folder [maskdata.](/maskdata.py)
 2. Install the dependencies.
 
 ```console
